@@ -1,4 +1,4 @@
-const CACHE_NAME = "firstpwa-v3";
+const CACHE_NAME = "News_v1";
 var urlsToCache = [
 	"/",
   "/nav.html",
@@ -54,8 +54,6 @@ self.addEventListener("activate", function(event){
 		})
 	)
 })
-
-
 
 
 });
